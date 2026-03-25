@@ -45,6 +45,15 @@
 
 > **提示**：该 Demo 数据模拟了一个典型的不对等社交场景，帮助你快速理解工具的分析维度。
 
+### 4.数据准备
+本工具目前深度适配由开源项目 [**CipherTalk**](https://github.com/ILoveBingLu/CipherTalk) 导出的微信聊天记录。
+
+### 如何获取 JSON 文件？
+1. 使用 **CipherTalk** 解密并导出你与特定联系人的聊天记录。
+2. 在导出选项中选择 `.json` 格式。
+3. 将生成的 JSON 文件拖入本工具即可开始分析。
+
+> **致敬 (Credits)**: 感谢 [ILoveBingLu/CipherTalk](https://github.com/ILoveBingLu/CipherTalk) 提供的底层数据导出支持，本工具作为其生态的下游分析插件，旨在通过数据可视化提升社交觉察力。
 ---
 
 ## 👨‍💻 开发者寄语 (Developer's Note)
